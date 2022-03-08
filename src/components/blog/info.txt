@@ -1,0 +1,16 @@
+6 - 3 - 2022
+yang saya dapat:::
+saya jadi mengetahui bagaimana perbedaan anatara function expression dan function biasa(tdk tahu namanya) di dalam class
+jadi semisal saya menggunakan function biasa untuk dimasukan seabagai event handler, maka nilai thisnya akan bernilai
+dengan object yang diberi event.
+sebementara jika menggunakan function expression nilai this akan merujuk pada class (atau object) tenpat function itu dibuat.
+
+berbedaan
+function biasa ->
+function makana(){....}
+
+function expression
+let makan = () = {.....}
+
+
+

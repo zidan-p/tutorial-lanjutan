@@ -1,0 +1,49 @@
+/* ----- clear ifx ------ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
+/* -- css sebenarnya --*/
+.card-container{
+    width: 900px;
+    min-height: 50px;
+    box-shadow: 1px 1px 4px 0px grey;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid brown;
+    margin-left: 1rem;
+}
+
+.card-container .img, .content{
+    float: left;
+    margin-right: 15px;
+}
+
+.content{
+    width: 75%;
+}
+
+.remove-button{
+    width: 80px;
+    height: 28px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.remove-button:active{
+    background-color: rgb(139, 0, 0);
+}
+
+
