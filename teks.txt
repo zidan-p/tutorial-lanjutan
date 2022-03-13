@@ -1,0 +1,26 @@
+-- tentang project ini --
+ini adalah project yang saya buat untuk belajar tutorial mengenai API di react.
+sebenarnya pembahasan mengenai react sudah di jelaskan pada project tutorial sebelumya,
+namun itu hanya sebatas dari penggunaat fecth dengan method get.
+pada project ini saya akan mengikuti tutorial dengan menggunakan axios sebbagai http cliet
+untuk mengelola API, baik itu request maupun respond.
+
+oh iya, tampilan pada project ini mungkin akan saya ubah beberapa elemenya, supaya saya bisa 
+lebih mengeksplorasi penggunaan react lebih dalam. meski demikian logika yang ada pada project ini
+masih tetap sama dengan logikan yang ada di video tutorial.
+
+mungkin juga pada project ini saya tidak akan terlalu menjelasakan mengenai penggunaan API di react.
+hal itu karena beberapa faktor berikut
+1. saya masih belum membaca dokumentasi dari react terkait penggunaan API,
+   sehingga saya tidak terlalu mengetahui seluk-beluk API di react
+2. video tutorial tidak sebutka mengenai daftar penjelasan ddari penggunaan API tapi hanya logika yg digunakan untuk menggunakan API
+3. penggunaan API di react masih mirip dengan penggunaan API node.js, 
+   jadi walaupun ada bebrapa perbedaan tapi dapat bayanglan bagaimana fungsinya
+
+karena penggunaanya yang hampir mirip, di project ini mungkin saya hanya kan menjelasakan mengenai perbedaanya saja.
+
+-- playlist tutorial --
+untuk yang penasaran, saya menggunakan tutorial dari playlist "belajar react"
+dari chanel "prawito hudoro". jadi apabila masih bingung tentang apa yang saya buat lebih baik
+menonton videonya pak prawito hudoro.
+

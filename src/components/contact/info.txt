@@ -1,0 +1,3 @@
+ini adalah file yang saya buat sendiri untuk lebih memahami mengenai routes
++ sebenarnya saya sudah paham dasar2 dari routes, tapi kali ini akan saya tambahai param sebagai 
+  data yang dikirim
