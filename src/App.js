@@ -3,6 +3,7 @@ import './App.css';
 import Blog from './components/blog/blog';
 import Contact from './components/contact/contact';
 import Detail from './components/contact/detail-contact/detail-contact';
+import Product from './components/product/product';
 import {BrowserRouter,Routes,Route, Link} from "react-router-dom";
 import React from 'react';
 
@@ -25,6 +26,9 @@ function Nav(props){
             <li className="nav-item">
               <a className="nav-link " ><Link to="/blog" className='ling'>Blog</Link></a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link " ><Link to="/product" className='ling'>Product</Link></a>
+            </li>
           </ul>
         </div>
       </div>
@@ -42,6 +46,7 @@ function App() {
         <Routes>
           <Route path="/" element={<div><h1>Ini adalah halaman Home</h1></div>} />
           <Route path="blog" element={<Blog />} />
+          <Route path="product" element={<Product />} />
           <Route path="contact" element={<Contact />} ></Route>
           <Route path='detail' element={<Detail />} >
             <Route path=":id" element={<Detail />} /> {/** :id di sini digunakna sebagai param */}

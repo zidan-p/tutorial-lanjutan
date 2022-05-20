@@ -1,0 +1,16 @@
+ini adalah folder yang akan digunakan untuk turtorial lifting up state.
+untuk cara kerja interfacenya yaitu
++ user menekan salah satu komponen tombol (+ / -)
++ nilai pada keranjang berubah sesuai yang ditekan oleh user
+
+cara kerja logis
++ user menekan components tombol (+ / -)
++ components itu mengirimkan event ke component atasnya
++ component atasnya, mengirimkan ke induk
++ induk mengoper hasil dari event ke salah satu anaknya yang lain
++ nilai dari anaknya berubah sesuai dari event yang dikerjakan
+
+untuk cara pengoperan event dan nilainya bisa menggunakan props antara component, entah itu components
+child maupun parent.
+
+
